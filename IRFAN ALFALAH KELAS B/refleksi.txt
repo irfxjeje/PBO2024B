@@ -1,6 +1,4 @@
-Q1: apa hal baru yang kamu pelajari dari lab ini
-    jawab: saya mempelajari cara membuat input nama, dan membuat beberapa kemungkinan dari 0 sampai 1
-q2: hal apa yang masih sulit kamu paham
-    jawab: saya sulit memahami soal cerita
-Q3: berapa alokasi waktu kamu untuk mempelajari materi+ lab minggu ini?
-    jawab: 3sks dilabor dan berjam jam di rumah.
+Q1:
+Apa yang anda dapatkan selama berada di labor?
+saya mendapatkan ilmu baru tentang oop pengertian oop, perbedaan oop 
+dan bebarapa definisi oop, dibantu teman saya
