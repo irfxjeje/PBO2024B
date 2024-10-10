@@ -1,0 +1,5 @@
+... Isi dari berkas arlian.txt sebelumnya ...
+###########
+Min: 0 karakter
+Max: 0 karakter
+Range: 0 karakter
