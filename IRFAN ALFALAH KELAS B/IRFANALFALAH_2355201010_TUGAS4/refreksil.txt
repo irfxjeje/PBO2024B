@@ -1,0 +1,12 @@
+Q1: Apa hal baru yang kamu pelajari melalui lab ini?
+Q2: Apa hal baru yang Masih Kamu sulit pahami?
+Q3: Berapa alokasi waktu kamu untuk mempelajari materi + lab minggu ini?
+
+Answer ~
+
+A1 : In_file, mode R dan W dalam Menjalankan File, Lalu With dan If.
+
+A2 : Memahami Tugas Yang Diberikan Dosen?
+
+A3 : mungkin 10 - 15 menit. Itu tergantung  
+     kesulitan materinya

@@ -1,0 +1,261 @@
+1.PENDAHULUAN
+  Python adalah bahasa pemrograman interpretatif multiguna. Tidak seperti bahasa lain yang susah untuk dibaca dan dipahami, python lebih menekankan pada keterbacaan kode agar lebih mudah         untuk memahami sintaks. Hal ini membuat Python sangat mudah dipelajari baik untuk pemula maupun untuk yang sudah menguasai bahasa pemrograman lain. Bahasa ini muncul pertama kali pada tahun 1991, dirancang oleh seorang bernama Guido van Rossum. Sampai saat ini Python masih dikembangkan oleh Python Software Foundation. Bahasa Python mendukung hampir semua sistem operasi, bahkan untuk sistem operasi Linux, hampir semua distronya sudah menyertakan Python di dalamnya. Dengan kode yang simpel dan mudah diimplementasikan, seorang programmer dapat lebih mengutamakan pengembangan aplikasi yang dibuat, bukan malah sibuk mencari syntax error.
+  Example: Print("Python dengan Simple")
+	  Run : Python dengan Simple
+ (important!:Hanya dengan menuliskan kode print seperti yang diatas, anda sudah bisa mencetak apapun yang anda inginkan di dalam tanda kurung (). Dibagian akhir kode pun, anda tidak harus mengakhirnya dengan tanda semicolon ;)
+
+2.TIPE DATA PYTHON
+  Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi. Python sendiri mempunyai tipe data yang cukup unik bila kita bandingkan dengan bahasa pemrograman yang lain.
+
+Berikut adalah tipe data dari bahasa pemrograman Python :
+
+Tipe Data  	 	|Contoh        								|Penjelasan
+Boolean	    	True atau False	 				 Menyatakan benar True yang bernilai 1, atau salah False yang bernilai 0
+String	    	"Ayo belajar Python"  				 Menyatakan karakter/kalimat bisa berupa huruf angka, dll(diapit tanda " atau ')
+Integer	      	25 atau 1209					 Menyatakan bilangan bulat
+Float	      	3.14 atau 0.99					 Menyatakan bilangan yang mempunyai koma
+Hexadecimal	9a atau 1d3	 				 Menyatakan bilangan dalam format heksa (bilangan berbasis 16)
+Complex	        1 + 5j	       					 Menyatakan pasangan angka real dan imajiner
+List	     	['xyz', 786, 2.23]	 			 Data untaian yang menyimpan berbagai tipe data dan isinya bisa diubah-ubah
+Tuple	     	('xyz', 768, 2.23)	 			 Data untaian yang menyimpan berbagai tipe data tapi isinya tidak bisa diubah
+Dictionary   	{'nama': 'adi','id':2}				 Data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai
+
+
+3.VARIABLE
+Variabel Python
+Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai-nilai. Ini berarti bahwa ketika Anda membuat sebuah variabel Anda memesan beberapa ruang di memori. Variabel menyimpan data yang dilakukan selama program dieksekusi, yang nantinya isi dari variabel tersebut dapat diubah oleh operasi - operasi tertentu pada program yang menggunakan variabel.
+
+Variabel dapat menyimpan berbagai macam tipe data. Di dalam pemrograman Python, variabel mempunyai sifat yang dinamis, artinya variabel Python tidak perlu didekralasikan tipe data tertentu dan variabel Python dapat diubah saat program dijalankan.
+
+Penulisan variabel Python sendiri juga memiliki aturan tertentu, yaitu :
+
+Karakter pertama harus berupa huruf atau garis bawah/underscore _
+Karakter selanjutnya dapat berupa huruf, garis bawah/underscore _ atau angka
+Karakter pada nama variabel bersifat sensitif (case-sensitif). Artinya huruf kecil dan huruf besar dibedakan. Sebagai contoh, variabel namaDepan dan namadepan adalah variabel yang berbeda.
+Untuk mulai membuat variabel di Python caranya sangat mudah, Anda cukup menuliskan variabel lalu mengisinya dengan suatu nilai dengan cara menambahkan tanda sama dengan = diikuti dengan nilai yang ingin dimasukan.
+
+Contoh untuk Mencetak Variabel Python
+counter = 100          # Creates an integer variable
+miles   = 1000.0       # Creates a floating point variable
+name    = "Zara Ali"   # Creates a string variable
+
+print (counter)
+print (miles)
+print (name)
+
+4.KOMENTAR
+  Komentar (comment) adalah kode di dalam script Python yang tidak dieksekusi atau tidak dijalankan mesin. Komentar hanya digunakan untuk menandai atau memberikan keterangan tertulis pada script. Komentar biasa digunakan untuk membiarkan orang lain memahami apa yang dilakukan script. atau untuk mengingatkan kepada programmer sendiri jika suatu saat kembali mengedit script tersebut.
+
+Untuk menggunakan komentar anda cukup menulis tanda pagar # diikuti dengan komentar Anda atau dengan menggunakan string literal yang dibuka dan ditutup dengan """.
+ #Ini adalah komentar
+ # Tulisan ini tidak akan dieksekusi
+
+ #komentar dengan tanda pagar hanya bisa digunakan
+ #untuk
+ #satu
+ #baris
+ """ 
+     Penulisan Komentar lebih dari satu baris yaitu
+     dengan menggunakan kutip dua 3 kali dan
+     ditutup dengan kutip dua 3 kali juga
+ """
+ print("Hello World") #ini juga komentar
+
+ #print("Welcome")
+
+ # komentar bisa berisi spesial karakter !@#$%^&\*(),./;'[]\
+
+#mencetak nama
+print("Budi")
+
+#mencetak angka/integer
+print(123)
+
+5.Operator Python
+Operator adalah konstruksi yang dapat memanipulasi nilai dari operan.
+ 1.Operator Aritmatika
+   Operator Contoh Penjelasan
+	Penjumlahan +	1 + 3 = 4	Menjumlahkan nilai dari masing-masing operan atau bilangan
+	Pengurangan -	4 - 1 = 3	Mengurangi nilai operan di sebelah kiri menggunakan operan di sebelah kanan
+	Perkalian *	2 * 4 = 8	Mengalikan operan/bilangan
+	Pembagian /	10 / 5 = 2	Untuk membagi operan di sebelah kiri menggunakan operan di sebelah kanan
+	Sisa Bagi %	11 % 2 = 1	Mendapatkan sisa pembagian dari operan di sebelah kiri operator ketika dibagi oleh operan di sebelah kanan
+	Pangkat **	8 ** 2 = 64	Memangkatkan operan disebelah kiri operator dengan operan di sebelah kanan operator
+	Pembagian Bulat //	10 // 3 = 3	Sama seperti pembagian. Hanya saja angka dibelakang koma dihilangkan.
+
+ 2.Operator Perbandingan
+   Operator perbandingan (comparison operators) digunakan untuk membandingkan suatu nilai dari masing-masing operan.
+
+   Operator  Penjelasan
+	Sama dengan ==	1 == 1	bernilai True Jika masing-masing operan memiliki nilai yang sama, maka kondisi bernilai benar atau True.
+	Tidak sama dengan !=	2 != 2	bernilai False Akan menghasilkan nilai kebalikan dari kondisi sebenarnya.
+	Tidak sama dengan <>	2 <> 2	bernilai False Akan menghasilkan nilai kebalikan dari kondisi sebenarnya.
+	Lebih besar dari >	5 > 3	bernilai True Jika nilai operan kiri lebih besar dari nilai operan kanan, maka kondisi menjadi benar.
+	Lebih kecil dari <	5 < 3	bernilai True Jika nilai operan kiri lebih kecil dari nilai operan kanan, maka kondisi menjadi benar.
+	Lebih besar atau sama dengan >=	5 >= 3	bernilai True Jika nilai operan kiri lebih besar dari nilai operan kanan, atau sama, maka kondisi menjadi    benar.
+	Lebih kecil atau sama dengan <=	5 <= 3	bernilai True Jika nilai operan kiri lebih kecil dari nilai operan kanan, atau sama, maka kondisi menjadi benar.
+
+ 3.Operator Penugasan
+   Operator penugasan digunakan untuk memberikan atau memodifikasi nilai ke dalam sebuah variabel.
+
+   Operator Penjelasan
+	Sama dengan =	a = 1	Memberikan nilai di kanan ke dalam variabel yang berada di sebelah kiri.
+	Tambah sama dengan +=	a += 2	Memberikan nilai variabel dengan nilai variabel itu sendiri ditambah dengan nilai di sebelah kanan.
+	Kurang sama dengan -=	a -= 2	Memberikan nilai variabel dengan nilai variabel itu sendiri dikurangi dengan nilai di sebelah kanan.
+	Kali sama dengan *=	a *= 2	Memberikan nilai variabel dengan nilai variabel itu sendiri dikali dengan nilai di sebelah kanan.
+	Bagi sama dengan /=	a /= 4	Memberikan nilai variabel dengan nilai variabel itu sendiri dibagi dengan nilai di sebelah kanan.
+	Sisa bagi sama dengan %=	a %= 3	Memberikan nilai variabel dengan nilai variabel itu sendiri dibagi dengan nilai di sebelah kanan. Yang diambil nantinya adalah sisa baginya.
+	Pangkat sama dengan **=	a **= 3	Memberikan nilai variabel dengan nilai variabel itu sendiri dipangkatkan dengan nilai di sebelah kanan.
+	Pembagian bulat sama dengan //=	a //= 3	Membagi bulat operan sebelah kiri operator dengan operan sebelah kanan operator kemudian hasilnya diisikan ke operan sebelah kiri.
+
+ 4.Prioritas Eksekusi Operator di Python.
+	Operator		Keterangan
+	**			Aritmatika
+	~, +, -			Bitwise
+	*, /, %, //		Aritmatika
+	+, -			Aritmatika
+	>>, <<			Bitwise
+	&			Bitwise
+	^			Bitwise
+	<=, <, >, >=		Perbandingan
+	<> , ==, !=		Perbandingan
+	=, %=, /=, //=, -=, +=, *=, **=	Penugasan
+	is, is not		Identitas
+	in, not in		Membership (Keanggotaan)
+	not, or, and		Logika
+
+6.KONDISI PYTHON
+ -Kondisi If
+ Pengambilan keputusan (kondisi if) digunakan untuk mengantisipasi kondisi yang terjadi saat jalanya program dan menentukan tindakan apa yang akan diambil sesuai dengan kondisi.Pada python ada beberapa statement/kondisi diantaranya adalah if, else dan elif Kondisi if digunakan untuk mengeksekusi kode jika kondisi bernilai benar True.
+
+ Jika kondisi bernilai salah False maka statement/kondisi if tidak akan di-eksekusi.
+
+ Dibawah ini adalah contoh penggunaan kondisi if pada Python
+#Kondisi if adalah kondisi yang akan dieksekusi oleh program jika bernilai benar atau TRUE
+
+nilai = 9
+
+#jika kondisi benar/TRUE maka program akan mengeksekusi perintah dibawahnya
+if(nilai > 7):
+    print("Sembilan Lebih Besar Dari Angka Tujuh") # Kondisi Benar, Dieksekusi
+
+#jika kondisi salah/FALSE maka program tidak akan mengeksekusi perintah dibawahnya
+if(nilai > 10):
+    print("Sembilan Lebih Besar Dari Angka Sepuluh") # Kondisi Salah, Maka tidak tereksekusi
+
+*Dari contoh diatas, jika program dijalankan maka akan mencetak string "Sembilan Lebih Besar Dari Angka Tujuh" sebanyak 1 kali yaitu pada if pertama. Di if kedua statement bernilai salah, jadi perintah print("Sembilan Lebih Besar Dari Angka Sepuluh") tidak akan dieksekusi.
+
+ 1.Kondisi If Else
+   Pengambilan keputusan (kondisi if else) tidak hanya digunakan untuk menentukan tindakan apa yang akan diambil sesuai dengan kondisi, tetapi juga digunakan untuk menentukan tindakan apa       yang akan diambil/dijalankan jika kondisi tidak sesuai. Pada python ada beberapa statement/kondisi diantaranya adalah if, else dan elif Kondisi if digunakan untuk mengeksekusi kode jika kondisi bernilai benar.
+
+Kondisi if else adalah kondisi dimana jika pernyataan benar True maka kode dalam if akan dieksekusi, tetapi jika bernilai salah False maka akan mengeksekusi kode di dalam else.
+
+Dibawah ini adalah contoh penggunaan kondisi if else pada Python
+# Kondisi if else adalah jika kondisi bernilai TRUE maka akan dieksekusi pada if,
+# tetapi jika bernilai FALSE maka akan dieksekusi kode pada else
+
+nilai = 3
+# Jika pernyataan pada if bernilai TRUE maka if akan dieksekusi,
+# tetapi jika FALSE kode pada else yang akan dieksekusi.
+if(nilai > 7):
+    print("Selamat Anda Lulus")
+else:
+    print("Maaf Anda Tidak Lulus")
+
+*Pada contoh diatas, jika program dijalankan maka akan mencetak string "Maaf Anda Tidak Lulus" karena pernyataan pada if bernilai False
+
+ 2.Kondisi Elif
+   Pengambilan keputusan (kondisi if elif) merupakan lanjutan/percabangan logika dari "kondisi if". Dengan elif kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan   yang bisa terjadi. Hampir sama dengan kondisi "else", bedanya kondisi "elif" bisa banyak dan tidak hanya satu.
+
+Dibawah ini adalah contoh penggunaan kondisi elif pada Python
+
+#Contoh penggunaan kondisi elif
+
+hari_ini = "Minggu"
+
+if(hari_ini == "Senin"):
+    print("Saya akan kuliah")
+elif(hari_ini == "Selasa"):
+    print("Saya akan kuliah")
+elif(hari_ini == "Rabu"):
+    print("Saya akan kuliah")
+elif(hari_ini == "Kamis"):
+    print("Saya akan kuliah")
+elif(hari_ini == "Jumat"):
+    print("Saya akan kuliah")
+elif(hari_ini == "Sabtu"):
+    print("Saya akan kuliah")
+elif(hari_ini == "Minggu"):
+    print("Saya akan libur")
+Pada contoh diatas, jika program dijalankan maka akan mencetak string "Saya akan libur".
+
+ 7.PERULANGAN
+   Secara umum, pernyataan pada bahasa pemrograman akan dieksekusi secara berurutan. Pernyataan pertama dalam sebuah fungsi dijalankan pertama, diikuti oleh yang kedua, dan seterusnya. Tetapi akan ada situasi dimana Anda harus menulis banyak kode, dimana kode tersebut sangat banyak. Jika dilakukan secara manual maka Anda hanya akan membuang-buang tenaga dengan menulis beratus-ratus bahkan beribu-ribu kode. Untuk itu Anda perlu menggunakan pengulangan di dalam bahasa pemrograman Python.
+
+Di dalam bahasa pemrograman Python pengulangan dibagi menjadi 3 bagian, yaitu :
+
+1.While Loop
+2.For Loop
+3.Nested Loop
+
+ 1.While Loop
+   Pengulangan While Loop di dalam bahasa pemrograman Python dieksesusi statement berkali-kali selama kondisi bernilai benar atau True.
+
+Dibawah ini adalah contoh penggunaan pengulangan While Loop.
+
+#Contoh penggunaan While Loop
+#Catatan: Penentuan ruang lingkup di Python bisa menggunakan tab alih-alih menggunakan tanda kurung
+
+count = 0
+while (count < 9):
+  print ("The count is: ", count)
+  count = count + 1
+
+print ("Good bye!")
+For Loop
+Pengulangan for pada Python memiliki kemampuan untuk mengulangi item dari urutan apapun, seperti list atau string.
+
+Dibawah ini adalah contoh penggunaan pengulangan For Loop.
+#Contoh penggunaan While Loop
+#Catatan: Penentuan ruang lingkup di Python bisa menggunakan tab alih-alih menggunakan tanda kurung
+
+count = 0
+while (count < 9):
+  print ("The count is: ", count)
+  count = count + 1
+
+print ("Good bye!")
+
+ 2.For Loop
+   Pengulangan for pada Python memiliki kemampuan untuk mengulangi item dari urutan apapun, seperti list atau string.
+
+Dibawah ini adalah contoh penggunaan pengulangan For Loop.
+
+#Contoh pengulangan for sederhana
+angka = [1,2,3,4,5]
+for x in angka:
+  print(x)
+
+#Contoh pengulangan for
+buah = ["nanas", "apel", "jeruk"]
+for makanan in buah:
+  print ("Saya suka makan", makanan)
+
+ 3.Nested Loop
+   Bahasa pemrograman Python memungkinkan penggunaan satu lingkaran di dalam loop lain. Bagian berikut menunjukkan beberapa contoh untuk menggambarkan konsep tersebut.
+
+Dibawah ini adalah contoh penggunaan Nested Loop.
+
+#Contoh penggunaan Nested Loop
+#Catatan: Penggunaan modulo pada kondisional mengasumsikan nilai selain nol sebagai True(benar) dan nol sebagai False(salah)
+
+i = 2
+while(i < 100):
+  j = 2
+while(j <= (i/j)):
+  if not(i%j): break
+  j = j + 1
+  if (j > i/j) : print(i, " is prime")
+    i = i + 1
+
+print("Good bye!")
